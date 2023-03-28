@@ -4,20 +4,20 @@ import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
- final int days=1;
+ final int days=3;
  final String name="Ayush";
   @override
   Widget build(BuildContext context) {
-    return  Scaffold( // scaffold ak class hai iska use hum desigining ke liye karte hai 
+    return  Scaffold( 
       appBar: AppBar(
-        title: Text(" It Work Shop project "),
+        title: Text(" Flutter First Login App "),
       ),
         body:Center(  
           child:Container(
             child: Text(" Welcome $name on days $days"),
       ),
     ),
-     drawer: Drawer(),  // drawer bna deta hai corner pr 
+     drawer: Drawer(),
     );    
   }
 }
